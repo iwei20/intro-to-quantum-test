@@ -10,6 +10,6 @@
         use q = Qubit();
         AssertMeasurement([PauliZ], [q], Zero, "Newly allocated qubit must be in |0> state.");
 
-        Message("Test passed with epic.");
+        Message("Test passed with epic, hello.");
     }
 }
